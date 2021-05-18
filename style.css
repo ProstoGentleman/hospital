@@ -1,0 +1,429 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  /*пиши шрифты которые используются в контенте по умолчанию сюда*/
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 1240px;
+}
+
+/*menu*/
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #fcfcfc;
+}
+.logo_img {
+  width: 80px;
+  height: 80px;
+}
+.menu__link {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  align-items: center;
+}
+.menu__link a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #7f7f7f;
+}
+/*end menu*/
+
+/*baner*/
+.baner {
+  width: 100%;
+  height: 700px;
+  background-image: url(images/images/Hospital_02-03.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
+}
+.baner_text {
+  width: 600px;
+  height: 90px;
+  font-family: "Open Sans", sans-serif;
+  color: #364b61;
+  font-size: 36px;
+  margin-left: 550px;
+  padding-top: 250px;
+}
+.baner input {
+  width: 230px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #364b61;
+  border: 0px solid;
+  font-size: 16px;
+  font-family: Myriad Pro; /*Это не стандартный шрифт. Его нужно подключать*/
+  color: #ffffff;
+  margin-left: 550px;
+  margin-top: 120px;
+}
+/*end baner*/
+
+/*about_hospital*/
+.about_hospital {
+  background-image: url(images/images/hospital_4.jpg);
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.about_hospital h1 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 34px;
+  padding-top: 95px;
+}
+.hospital_menu {
+  width: 970px;
+  border-radius: 3px;
+  margin: 20px auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+.hospital_menu_title {
+  font-size: 26px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #5ec2eb;
+  margin-bottom: 30px;
+}
+.hospital_help {
+  padding-top: 6px;
+  border: 1px solid;
+  border-radius: 4px;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  display: inline-block;
+  font-family: "Open Sans", bold;
+  font-size: 18px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+.hospital_help a {
+  text-decoration: none;
+  color: #364b61;
+  font-size: 18px;
+}
+ul {
+  list-style: none;
+  text-align: left;
+  font-size: 24px;
+}
+.hospital_menu li {
+  margin-left: 90px;
+  background-image: url(images/images/Hospital_05.png);
+  background-repeat: no-repeat;
+  padding: 2px 0px 0px 0px;
+  padding-left: 45px;
+  margin-bottom: 10px;
+}
+
+/*end about_hospital*/
+
+/*doctors*/
+.doctors {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* height: 640px; */
+}
+.doctors h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  text-align: center;
+  padding: 80px;
+}
+.doctors_icons {
+  display: inline-block;
+  padding-left: 50px;
+  width: 23%;
+  text-align: center;
+}
+.doctors_name {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+.doctors_prof {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #5ec2eb;
+}
+.icons {
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+}
+.bottom_doctor[type="submit"] {
+  width: 223px;
+  height: 51px;
+  color: #1fdfd8;
+}
+/*end doctors*/
+
+/*coment*/
+.coment {
+  background-image: url(images/images/Hospital_14.jpg);
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.coment h1 {
+  text-align: center;
+  font-size: 32px;
+  font-family: "Open Sans", sans-serif;
+  color: #364b61;
+  padding-top: 120px;
+}
+.coment_block {
+  width: 1000px;
+  height: 180px;
+  background: rgba(256, 256, 256, 0.8);
+  /* margin-left: 185px;
+  margin-right: 185px; */
+  margin: 0 auto;
+}
+.coment_block img {
+  margin-left: 68px;
+  margin-top: 40px;
+}
+.people_coment {
+  width: 490px;
+  height: 180px;
+  display: inline-block;
+}
+.people_name {
+  font-size: 18px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 45px;
+  margin-left: 19px;
+}
+.people_prof {
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 210px;
+  margin-top: -95px;
+}
+.people_text {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 210px;
+  margin-top: -80px;
+}
+/*end coment*/
+
+/*what we do*/
+
+.what_we_do {
+  width: 100%;
+  height: 670px;
+  background-color: #fcfcfc;
+}
+.what_we_do__item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.what_we_do h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  text-align: center;
+  padding: 80px;
+}
+.what_we_do .medical {
+  width: 270px;
+  height: 350px;
+  background-color: #f5f5f5;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 30px;
+}
+.medical img {
+  padding-left: 27%;
+}
+.madical_name {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+.madical_text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  margin: 0 20px 0 20px;
+}
+/*end what we do*/
+
+/*form*/
+
+.form_block {
+  max-width: 370px;
+  margin: 30px auto;
+}
+.form_row {
+  margin-bottom: 10px;
+}
+
+.form {
+  background-image: url(images/images/Hospital_21.jpg);
+  width: 100%;
+  height: 645px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.form_title {
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 32px;
+  color: #364b61;
+  padding-top: 123px;
+}
+.form_name {
+  margin: 0;
+  font-size: 17px;
+}
+input[type="text"] {
+  width: 100%;
+  height: 42px;
+  line-height: 42px;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 24px;
+  display: inline-block;
+  font-family: "Open Sans", "arial";
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 24px;
+  line-height: 1.1;
+  display: inline-block;
+  font-family: "Open Sans", "arial";
+  padding-top: 5px;
+}
+/*end form*/
+
+/*news*/
+.news {
+  width: 100%;
+  height: 700px;
+  background-color: #fcfcfc;
+}
+.news h1 {
+  font-family: "Open Sans", "bold";
+  font-size: 32px;
+  color: #656565;
+  text-align: center;
+  padding-top: 120px;
+}
+.news_block {
+  display: inline-block;
+  width: 270px;
+  height: 387px;
+  background-color: #ffffff;
+  vertical-align: top;
+  margin-left: 30px;
+}
+.news_data {
+  color: #5ec2eb;
+  font-size: 18px;
+  font-family: "Open Sans", "bold";
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 8px;
+  padding-left: 10px;
+}
+.news_title {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Open Sans", "sans-serif";
+}
+.news_text {
+  font-size: 12px;
+  font-family: "Open Sans", "regular";
+  padding-left: 40px;
+  padding-top: 10px;
+}
+/*end news*/
+
+/*footer*/
+.footer {
+  width: 100%;
+  height: 360px;
+  background-color: #364b61;
+}
+
+.footer h1 {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Open Sans", "bold";
+  margin-bottom: 15px;
+}
+.footer li {
+  font-size: 14px;
+  font-family: "Open Sans", "bold";
+  color: #ffffff;
+  line-height: 1.8;
+}
+.footer li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer_block {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 40px;
+  margin-top: 45px;
+}
+
+.network {
+  width: 250px;
+  height: 65px;
+  margin-left: 15px;
+  margin-top: 60px;
+}
+.network img {
+  padding-left: 10px;
+}
+
+.Copyright {
+  width: 100%;
+  height: 63px;
+  background-color: #5ec2eb;
+}
+.Copyright h1 {
+  text-align: center;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  padding-top: 20px;
+}
+/*end footer*/
